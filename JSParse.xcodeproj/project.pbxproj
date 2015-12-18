@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E0A4DF021C23C110006649C1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0A4DF011C23C110006649C1 /* main.cpp */; };
+		E0A4DF0A1C23C1A0006649C1 /* jsonParse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E0A4DF081C23C1A0006649C1 /* jsonParse.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,9 @@
 
 /* Begin PBXFileReference section */
 		E0A4DEFE1C23C110006649C1 /* JSParse */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = JSParse; sourceTree = BUILT_PRODUCTS_DIR; };
-		E0A4DF011C23C110006649C1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E0A4DF081C23C1A0006649C1 /* jsonParse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jsonParse.cpp; sourceTree = "<group>"; };
+		E0A4DF091C23C1A0006649C1 /* jsonParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jsonParse.h; sourceTree = "<group>"; };
+		E0A4DF0B1C24B5B9006649C1 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 		E0A4DEF51C23C110006649C1 = {
 			isa = PBXGroup;
 			children = (
+				E0A4DF0B1C24B5B9006649C1 /* .gitignore */,
 				E0A4DF001C23C110006649C1 /* JSParse */,
 				E0A4DEFF1C23C110006649C1 /* Products */,
 			);
@@ -57,7 +60,8 @@
 		E0A4DF001C23C110006649C1 /* JSParse */ = {
 			isa = PBXGroup;
 			children = (
-				E0A4DF011C23C110006649C1 /* main.cpp */,
+				E0A4DF081C23C1A0006649C1 /* jsonParse.cpp */,
+				E0A4DF091C23C1A0006649C1 /* jsonParse.h */,
 			);
 			path = JSParse;
 			sourceTree = "<group>";
@@ -117,7 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0A4DF021C23C110006649C1 /* main.cpp in Sources */,
+				E0A4DF0A1C23C1A0006649C1 /* jsonParse.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
